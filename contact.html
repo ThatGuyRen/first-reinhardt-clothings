@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reinhardt clothings</title>
+    <link rel="stylesheet" href="style-contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/rensite-logo.png" alt="reinhardt logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>CONTACT US</h1>
+       </div>
+    </section>
+
+    <!--- Contact Us--->
+    <section class="contact">
+        <div class="contact-us-text-box">
+        <h1>How can you contact us?</h1>
+        <p><i class="fa fa-facebook"></i>  Ren Vaño</p>
+        <p><i class="fa fa-phone"></i> +63094395144</p>
+        <p><i class="fa fa-instagram"></i> _ren2k</p>
+        </div>
+    </section>
+
+<!--- Footer --->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>At REINHARDT, we believe that style is an art form, and your wardrobe is the canvas. With a passion for fashion and a commitment to quality, we curate a collection that embodies timeless elegance, modern trends, and unwavering craftsmanship. Our story begins with a desire to empower individuals to express their unique style through our handpicked selection of clothing and accessories. We're more than a clothing store; we're a destination for self-expression and confidence. Join us on this sartorial journey and let your fashion flourish with REINHARDT.</p>
+  <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-phone"></i>
+              <i class="fa fa-instagram"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart"> by Reinhardt Vaño</i></p>
+</section>
+
+<!-----Javascript for Navigation Menu----->
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px"
+  }
+</script>
+
+  </body>
+  </html>

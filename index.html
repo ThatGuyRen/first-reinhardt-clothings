@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reinhardt clothings</title>
+    <link rel="stylesheet" href="style-home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/rensite-logo.png" alt="reinhardt logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>REINHARDT</h1>
+        <p>Your Fashion Destination, Your Style Journey.</p>
+        <a href="products.html" class="hero-btn">CHECK OUT NOW</a>
+      </div>
+    </section>
+
+<!--Products Section-->
+
+    <section class="products">
+      <h1>Products We Offer</h1>
+      <p>Discover a world of unparalleled style and comfort at our clothing store. From the refined elegance of BFADC Shirts to the timeless sophistication of BFADC Polo Shirts, our collection is designed to elevate your wardrobe. Unmatched breathability and unbeatable confidence await with our Breathable BBs. Embrace the perfect blend of fashion and function – shop now and elevate your everyday.</p>
+      <div class="row">
+        <div class="products-col">
+          <!--BFADC = Built for all-day comfort-->
+          <h3>BFADC Shirts</h3>
+          <p>Stay cool and comfortable in BFADC Shirts, your go-to choice for breathable style.</p>
+          <img src="images/bfadc-gray.png" alt="Gray BFADC Shirt">
+        </div>
+        <div class="products-col">
+          <!--BFADC = Built for all-day comfort-->
+          <h3>BFADC Polo Shirts</h3>
+          <p>Elevate style and comfort with BFADC Polo Shirts: timeless design, superior quality.</p>
+          <img src="images/red-poloshirt.png" alt="Red BFADC Polo Shirt">
+        </div>
+        <div class="products-col">
+          <!--BFADC = Built for all-day comfort-->
+          <h3>Breathable BBs</h3>
+          <p>Your ultimate boxer briefs for unmatched comfort and confidence.</p>
+          <img src="images/breathable-b-briefs.png" alt="Blue BB">
+        </div>
+      </div>
+    </section>
+
+    <!--- People Reviews --->
+
+    <section class="reviews">
+        <h1>What Our Consumers Say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab quae dolores quo libero neque aut suscipit dolore. Magni unde repellat laboriosam perferendis ipsum debitis ullam qui neque quos voluptatum.</p>
+
+        <div class="row">
+          <div class="reviews-col">
+            <img src="images/jonalyn-reviewer.PNG" alt="">
+            <div>
+              <p>  honestly, the product is good in terms of quality but the customer service ain't just it. I emailed you guys last night about me being rejected by my crush but you just replied, "oh to be honest. We do not care" LIKE HOW ARE YOU GUYS SO NOT GOOD WITH THIS I AM SO DISAPPOINTED.
+              </p>
+              <h3>Jones Malceda</h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+
+          <div class="reviews-col">
+            <img src="images/jaime-reviewer.PNG" alt="">
+            <div>
+              <p>Ang inyong Breathable BBs is so luag. Bad.</p>
+              <h3>Jet Aime Rawrhe </h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+        </div>
+    </section>
+
+<!---Banner--->
+
+    <section class="banner">
+      <h1>Contact the greatest <br>clothing store out there</h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+<!--- Footer --->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>At REINHARDT, we believe that style is an art form, and your wardrobe is the canvas. With a passion for fashion and a commitment to quality, we curate a collection that embodies timeless elegance, modern trends, and unwavering craftsmanship. Our story begins with a desire to empower individuals to express their unique style through our handpicked selection of clothing and accessories. We're more than a clothing store; we're a destination for self-expression and confidence. Join us on this sartorial journey and let your fashion flourish with REINHARDT.</p>
+  <div class="icons">
+    <a href="https://www.facebook.com/unnamedhooman"><i class="fa fa-facebook"></i></a>
+    <i class="fa fa-phone"></i>
+    <i class="fa fa-instagram"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart"> by Reinhardt Vaño</i></p>
+</section>
+
+<!-----Javascript for Navigation Menu----->
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px"
+  }
+</script>
+
+  </body>
+  </html>
